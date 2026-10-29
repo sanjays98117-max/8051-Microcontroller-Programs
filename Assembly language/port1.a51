@@ -1,0 +1,7 @@
+ORG 0000H
+	MOV A, #0AAH
+	MOV P1,A
+	HERE:
+	SJMP HERE
+END
+		
